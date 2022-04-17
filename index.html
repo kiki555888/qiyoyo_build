@@ -1,396 +1,545 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THX</title>
-    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
-    <link rel="stylesheet" href="css/tooplate-wave-cafe.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->	
+	<title>Web Trends - Single page website</title>	
+	<meta name="description" content="">
+	<meta name="author" content="webThemez">    
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->     
+<link rel="stylesheet" href="css/bootstrap.min.css" />     
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+<link rel="stylesheet" href="css/styles.css"/>
+<!-- Font Awesome -->
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="tm-container">
-    <div class="tm-row">
-      <!-- Site Header -->
-      <div class="tm-left">
-        <div class="tm-left-inner">
-          <div class="tm-site-header">
-            <i class="fas fa-coffee fa-3x tm-site-logo"></i>
-            <h1 class="tm-site-name">Wave_Cafe</h1>
+<header class="header">
+	<div class="container">
+		<nav class="navbar navbar-inverse" role="navigation">
+        	<div class="navbar-header">
+	            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	            </button>
+	            <a href="#" class="navbar-brand scroll-top logo"><b>Web</b>Trends</a>
+        	</div>
+        	<!--/.navbar-header-->
+	        <div id="main-nav" class="collapse navbar-collapse">
+	            <ul class="nav navbar-nav" id="mainNav">
+		            <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+					<li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+					<li><a href="#services" class="scroll-link">Services</a></li>
+					<li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
+					<li><a href="#team" class="scroll-link">Team</a></li>
+					<li><a href="#contactUs" class="scroll-link">Contact Us</a></li> 
+	            </ul>
+	        </div>
+	        <!--/.navbar-collapse-->
+	    </nav>
+	    <!--/.navbar-->
+	</div>
+	<!--/.container-->
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home" class="page-section">
+    <div class="banner-container">
+        <div class="bannerOverlay"></div>
+            <div class="container banner-content">
+		    <<!--h1>Responsive Page Scrolling<br/><span>with Bootstrap</span></h1>
+		    <p class="lead">Use the navigation above to scroll to different page sections.</p>		   
+		    <p><a href="#about" class="button-outline"> More.. </a></p>-->
+               <div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Easy management</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Revolution</h2>
+					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Warm welcome</h2>
+					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Quality Control</h2>
+					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+	    </div>
+    </div>		
+	<section class="sub-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised word.</p>
           </div>
-          <nav class="tm-site-nav">
-            <ul class="tm-site-nav-ul">
-              <li class="tm-page-nav-item">
-                <a href="#drink" class="tm-page-link active">
-                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
-                  <span>Drink Menu</span>
-                </a>
-              </li>
-              <li class="tm-page-nav-item">
-                <a href="#about" class="tm-page-link">
-                  <i class="fas fa-users tm-page-link-icon"></i>
-                  <span>关于我们</span>
-                </a>
-              </li>
-              <li class="tm-page-nav-item">
-                <a href="#special" class="tm-page-link">
-                  <i class="fas fa-glass-martini tm-page-link-icon"></i>
-                  <span>Special Items</span>
-                </a>
-              </li>
-              <li class="tm-page-nav-item">
-                <a href="#contact" class="tm-page-link">
-                  <i class="fas fa-comments tm-page-link-icon"></i>
-                  <span>Contact</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>        
-      </div>
-      <div class="tm-right">
-        <main class="tm-main">
-          <div id="drink" class="tm-page-content">
-            <!-- Drink Menu Page -->
-            <nav class="tm-black-bg tm-drinks-nav">
-              <ul>
-                <li>
-                  <a href="#" class="tm-tab-link active" data-id="cold">Iced Coffee</a>
-                </li>
-                <li>
-                  <a href="#" class="tm-tab-link" data-id="hot">Hot Coffee</a>
-                </li>
-                <li>
-                  <a href="#" class="tm-tab-link" data-id="juice">Fruit Juice</a>
-                </li>
-              </ul>
-            </nav>
+        </div>
+      </div><!-- END container -->
+    </section>
+    <!--/.container-->
+</section> 
 
-            <div id="cold" class="tm-tab-content">
-              <div class="tm-list">
-                <div class="tm-list-item">          
-                  <img src="img/iced-americano.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Iced Americano<span class="tm-list-item-price">$10.25</span></h3>
-                    <p class="tm-list-item-description">Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.</p>
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/iced-cappuccino.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Iced Cappuccino<span class="tm-list-item-price">$12.50</span></h3>
-                    <p class="tm-list-item-description">Here is a list of 4 items or add more. You can use this template for commercial purposes.</p>
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/iced-espresso.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Iced Espresso<span class="tm-list-item-price">$14.25</span></h3>
-                    <p class="tm-list-item-description">You are not permitted to redistribute this template ZIP file on any other template websites.</p>
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Iced Latte<span class="tm-list-item-price">$11.50</span></h3>
-                    <p class="tm-list-item-description">Contents are organized into 3 tabs. Please <a href="https://www.tooplate.com/contact" rel="nofollow" target="_parent">contact Tooplate</a> if you have anything to ask.</p>
-                  </div>
-                </div> 
-                                       
-              </div>
-            </div> 
+<section id="aboutUs" class="page-section darkBg pDark pdingBtm30">
+	<div class="container">
+							    <div class="heading text-center">
+								<!-- Heading -->
+								<h2>About Us</h2>								 
+								<p>At lorem ipsum available, but the majority have suffered alteration humour or randomised</p>
+							</div>
+							
+								<div class="row">
+									<div class="col-md-4 col-sm-4">										
+											<h3><i class="fa fa-desktop color"></i> &nbsp; What we do?</h3>
+											<!-- Paragraph -->
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>										
+									</div>
+									<div class="col-md-4 col-sm-4">										
+											<!-- Heading -->
+											<h3><i class="fa fa-cloud color"></i> &nbsp;Why choose us?</h3>
+											<!-- Paragraph -->
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p> 										
+									</div>
+									<div class="col-md-4 col-sm-4">										
+											<!-- Heading -->
+											<h3><i class="fa fa-home color"></i> &nbsp;Where are we?</h3>
+											<!-- Paragraph -->
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p> 										
+									</div>
+								</div>
+							</div>
+	<!--/.container-->
+</section> 
 
-            <div id="hot" class="tm-tab-content">
-              <div class="tm-list">
-              
-                <div class="tm-list-item">          
-                  <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Americano<span class="tm-list-item-price">$8.50</span></h3>
-                    <p class="tm-list-item-description">Here is a short description for the item along with a squared thumbnail.</p>              
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Cappuccino<span class="tm-list-item-price">$9.50</span></h3>
-                    <p class="tm-list-item-description">Here is a list of 4 items that can add more as you need. Only content area will be scrolling.</p>                    
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Espresso<span class="tm-list-item-price">$7.50</span></h3>
-                    <p class="tm-list-item-description">Left side logo and main menu are fixed. The video background is fixed.</p>              
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Latte<span class="tm-list-item-price">$6.50</span></h3>
-                    <p class="tm-list-item-description">Page contents are organized into 3 tabs to show different lists of items.</p>              
-                  </div>
-                </div>
-                         
-              </div>
-            </div>
+<section id="services" class="page-section">
+	<div class="container">
+		    <div class="heading text-center">
+								<!-- Heading -->
+								<h2>Services</h2>								
+								<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+							</div>
+		<section class="grid row clearfix clearfix-for-2cols">
 
-            <div id="juice" class="tm-tab-content">
-              <div class="tm-list">
-                <div class="tm-list-item">          
-                  <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Strawberry Smoothie<span class="tm-list-item-price">$12.50</span></h3>
-                    <p class="tm-list-item-description">Here is a short description for the item along with a squared thumbnail.</p>              
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Red Berry Smoothie<span class="tm-list-item-price">$14.50</span></h3>
-                    <p class="tm-list-item-description">Here is a list of 4 items or add more. You can use this template for commercial purposes.</p>                    
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Pineapple Smoothie<span class="tm-list-item-price">$16.50</span></h3>
-                    <p class="tm-list-item-description">Left side logo and main menu are fixed. The video background is fixed.</p>              
-                  </div>
-                </div>
-                <div class="tm-list-item">          
-                  <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
-                  <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Spinach Smoothie<span class="tm-list-item-price">$18.50</span></h3>
-                    <p class="tm-list-item-description">You are not allowed to redistribute the template ZIP file on other template sites.</p>              
-                  </div>
-                </div>              
-              </div>
-            </div>
-            <!-- end Drink Menu Page -->
-          </div>
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                     <i class="fa fa-cogs fa-5x"></i>
+                      <div class="text-content">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p>Nullam ac rhoncus sapien, non gravida purus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
 
-          <!-- About Us Page -->
-          <div id="about" class="tm-page-content">
-            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
-              <h2 class="tm-text-primary tm-about-header">About Wave Cafe</h2>
-              <div class="tm-list-item tm-list-item-2">                
-                <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
-                <div class="tm-list-item-text-2">
-                  <p>Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.</p>
-                  <p>You can also use this for your client websites which you get paid for your website services. Please tell your friends about us.</p>
-                </div>                
-              </div>
-            </div>
-            <div class="tm-black-bg tm-mb-20 tm-about-box-2">              
-              <div class="tm-list-item tm-list-item-2">                
-                <div class="tm-list-item-text-2">
-                  <h2 class="tm-text-primary">How we began</h2>
-                  <p>If you wish to support us, please contact Tooplate. Thank you. Duis bibendum erat nec ipsum consectetur sodales.</p>                  
-                </div>                
-                <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">                
-              </div>
-              <p>Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper.</p>
-            </div>
-          </div>
-          <!-- end About Us Page -->
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <i class="fa fa-bullseye fa-5x"></i>
+                      <div class="text-content">
+                        <h4>Aliquam adipiscing eros non elit</h4>
+                        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer ultricies sed ligula eget tempus.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><article class="clearfix"></article><!-- end: .grid-item -->
 
-          <!-- Special Items Page -->
-          <div id="special" class="tm-page-content">
-            <div class="tm-special-items">
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-01.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Special One</h2>
-                  <p class="tm-special-item-text">Here is a short text description for the first special item. You are not allowed to redistribute this template ZIP file.</p>  
-                </div>
-              </div>
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-02.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Second Item</h2>
-                  <p class="tm-special-item-text">You are allowed to download, modify and use this template for your commercial or non-commercial websites.</p>  
-                </div>
-              </div>
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-03.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Third Special Item</h2>
-                  <p class="tm-special-item-text">Pellentesque in ultrices mi, quis mollis nulla. Quisque sed commodo est, quis tincidunt nunc.</p>  
-                </div>
-              </div>
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-04.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Special Item Fourth</h2>
-                  <p class="tm-special-item-text">Vivamus finibus nulla sed metus sagittis, sed ultrices magna aliquam. Mauris fermentum.</p>  
-                </div>
-              </div>      
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-05.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Sixth Sense</h2>
-                  <p class="tm-special-item-text">Here is a short text description for sixth item. This text is four lines.</p>  
-                </div>
-              </div>
-              <div class="tm-black-bg tm-special-item">
-                <img src="img/special-06.jpg" alt="Image">
-                <div class="tm-special-item-description">
-                  <h2 class="tm-text-primary tm-special-item-title">Seventh Item</h2>
-                  <p class="tm-special-item-text">Curabitur eget erat sit amet sapien aliquet vulputate quis sed arcu.</p>  
-                </div>
-              </div>                      
-            </div>            
-          </div>
-          <!-- end Special Items Page -->
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">  
+                        <i class="fa fa-desktop fa-5x"></i>
+                      <div class="text-content">
+                        <h4>Integer ultricies sed ligula</h4>
+                        <p>Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula ligula eget.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
 
-          <!-- Contact Page -->
-          <div id="contact" class="tm-page-content">
-            <div class="tm-black-bg tm-contact-text-container">
-              <h2 class="tm-text-primary">Contact Wave</h2>
-              <p>Wave Cafe Template has a video background. You can use this layout for your websites. Please contact Tooplate's Facebook page. Tell your friends about our website.</p>
-            </div>
-            <div class="tm-black-bg tm-contact-form-container tm-align-right">
-              <form action="" method="POST" id="contact-form">
-                <div class="tm-form-group">
-                  <input type="text" name="name" class="tm-form-control" placeholder="Name" required="" />
-                </div>
-                <div class="tm-form-group">
-                  <input type="email" name="email" class="tm-form-control" placeholder="Email" required="" />
-                </div>        
-                <div class="tm-form-group tm-mb-30">
-                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
-                </div>        
-                <div>
-                  <button type="submit" class="tm-btn-primary tm-align-right">
-                    Submit
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!-- end Contact Page -->
-        </main>
-      </div>    
-    </div>
-    <footer class="tm-site-footer">
-      <p class="tm-black-bg tm-footer-text">Copyright 2020 Wave Cafe
-      
-      | Design: <a href="https://www.tooplate.com" class="tm-footer-link" rel="sponsored" target="_parent">Tooplate</a></p>
-    </footer>
-  </div>
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <i class="fa fa-flask fa-5x"></i>
+                      <div class="text-content">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula eget tempus.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><article class="clearfix"></article><!-- end: .grid-item -->
+
+                </section>
+	</div>
+	<!--/.container-->
+</section> 
+
+<section id="portfolio" class="page-section section appear clearfix">	
+			<div class="container">
+				
+		    <div class="heading text-center">
+								<!-- Heading -->
+								<h2>Portfolio</h2>								
+								<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+							</div>
+					
+                        <div class="row">
+                          <nav id="filter" class="col-md-12 text-center">
+                            <ul>
+                              <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".webdesign" >Web Design</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                              <li ><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                            </ul>
+                          </nav>
+                          <div class="col-md-12">
+                            <div class="row">
+                              <div class="portfolio-items isotopeWrapper clearfix" id="3">
+							  
+                                <article class="col-md-4isotopeItem webdesign">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img1.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img1.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem photography">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img2.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img2.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+								
+
+                                <article class="col-md-4isotopeItem photography">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img3.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img3.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem print">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img4.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img4.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem photography">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img5.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img5.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem webdesign">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img6.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img6.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem print">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img7.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img7.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem photography">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img8.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img8.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-4isotopeItem print">
+									<div class="portfolio-item">
+										<img src="images/portfolio/img9.jpg" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<a href="images/portfolio/img9.jpg" class="fancybox"><h5>Project Name</h5>
+												<i class="fa fa-plus-circle fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+                                </div>
+                                        
+							</div>
+                                     
+
+							</div>
+                        </div>
+				
+			</div>	
+</section> 
+
+<section id="team" class="page-section">
+	<div class="container">
+							<div class="heading text-center">
+								<!-- Heading -->
+								<h2>Our Team</h2> 
+								<p>At variations of passages of Lorem Ipsum available, but the majority have suffered alteration..</p>
+							</div>
+							<!-- Team Member's Details -->
+							<div class="team-content">
+								<div class="row">
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<!-- Team Member -->
+										<div class="team-member pDark">
+											<!-- Image Hover Block -->
+											<div class="member-img">
+												<!-- Image  -->
+												<img class="img-responsive" src="images/photo-1.jpg" alt=""> 
+											</div>
+											<!-- Member Details -->
+											<h3>John Doe</h3>
+											<!-- Designation -->
+											<span class="pos">CEO</span>
+                                            <div class="descrition">
+                                                <p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                                </div>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<!-- Team Member -->
+										<div class="team-member pDark">
+											<!-- Image Hover Block -->
+											<div class="member-img">
+												<!-- Image  -->
+												<img class="img-responsive" src="images/photo-2.jpg" alt=""> 
+											</div>
+											<!-- Member Details -->
+											<h3>Larry Doe</h3>
+											<!-- Designation -->
+											<span class="pos">Art Director</span>
+                                            <div class="descrition">
+                                                <p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                                </div>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<!-- Team Member -->
+										<div class="team-member pDark">
+											<!-- Image Hover Block -->
+											<div class="member-img">
+												<!-- Image  -->
+												<img class="img-responsive" src="images/photo-3.jpg" alt=""> 
+											</div>
+											<!-- Member Details -->
+											<h3>Ranith Kays</h3>
+											<!-- Designation -->
+											<span class="pos">Manager</span>
+                                            <div class="descrition">
+                                                <p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                                </div>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<!-- Team Member -->
+										<div class="team-member pDark">
+											<!-- Image Hover Block -->
+											<div class="member-img">
+												<!-- Image  -->
+												<img class="img-responsive" src="images/photo-4.jpg" alt=""> 
+											</div>
+											<!-- Member Details -->
+											<h3>Joan Ray</h3>
+											<!-- Designation -->
+											<span class="pos">Creative</span>
+                                            <div class="descrition">
+                                                <p>Ut wisi enim ad minimpit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                                </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	<!--/.container-->
+</section> 
+
+<section id="contactUs" class="page-section">
+	<div class="container">
     
-  <!-- Background video -->
-  <div class="tm-video-wrapper">
-      <i id="tm-video-control-button" class="fas fa-pause"></i>
-      <video autoplay muted loop id="tm-video">
-          <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
-      </video>
-  </div>
+		<div class="row">
+                <div class="heading text-center">
+								<!-- Heading -->
+								<h2>Contact Us</h2> 
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+							</div>
+						<div class="col-sm-12">
+								<div id="mapWrapper" class="mb30" style="position: relative; maring-bottom:20px; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1944302.5352489671!2d77.4535942421874!3d17.863656040793934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1398658474236" width="1200" height="400" frameborder="0" style="border:0"></iframe>
+								</div><br/>
+							</div>
+            </div>
 
-  <script src="js/jquery-3.4.1.min.js"></script>    
-  <script>
+					<div class="row mrgn30">
+                        				<div class="col-sm-4">
+									<h4>Address:</h4>
+									<address>
+										WebThemez Company<br>
+										134 Stilla. Tae., 414515<br>
+										Leorislon, SA 02434-34534 USA <br>
+									</address>
+									<h4>Phone:</h4>
+									<address>
+										12345-49589-2<br>
+									</address>
+								</div>
+								<form method="post" action="" id="contactfrm" role="form">
 
-    function setVideoSize() {
-      const vidWidth = 1920;
-      const vidHeight = 1080;
-      const windowWidth = window.innerWidth;
-      const windowHeight = window.innerHeight;
-      const tempVidWidth = windowHeight * vidWidth / vidHeight;
-      const tempVidHeight = windowWidth * vidHeight / vidWidth;
-      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
-      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
-      const tmVideo = $('#tm-video');
+									<div class="col-sm-4"> 
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+										</div>
+										<div class="form-group">
+											<label for="email">Email</label>
+											<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+										</div>
+										<div class="form-group">
+											<label for="phone">Phone</label>
+											<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label for="comments">Comments</label>
+											<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+										</div>	
+										<button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit"> Submit</button>		
+										<div class="result"></div>										
+									</div>                        									
+								</form>
+							</div>
+        </div>
+	<!--/.container-->
+</section>
+<!--/#north-america-->
 
-      tmVideo.css('width', newVidWidth);
-      tmVideo.css('height', newVidHeight);
-    }
+<footer class="page-section">
+	<div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 about">
+            <a href="#" class="logoDark"><h4>WebThemez</h4></a>
+            <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Aenean 
+            leo lectus sollicitudin convallis eget libero. Aliquam laoreet 
+            tellus ut libero semper, egestas velit malesuada. Sed non 
+            risus eget dolor amet vestibulum ullamcorper. Integer feugiat 
+            molestie.</p>
+            <ul class="socialIcons">
+              <li><a href="#" class="fbIcon" target="_blank"><i class="fa fa-facebook-square fa-lg""></i></a></li>
+              <li><a href="#" class="twitterIcon" target="_blank"><i class="fa fa-twitter-square fa-lg""></i></a></li>
+              <li><a href="#" class="googleIcon" target="_blank"><i class="fa fa-google-plus-square fa-lg""></i></a></li>
+              <li><a href="#" class="pinterest" target="_blank"><i class="fa fa-pinterest-square fa-lg""></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-6 twitter">
+            <h4>Latest Tweets</h4>
+            <ul>
+              <li><a href="#">@John Doe</a> Lorem ipsum dolor amet, consectetur adipiscing 
+              elit. Aenean leo lectus sollicitudin eget libero.<br><span>2 minutes ago</span></li>
+              <li><a href="#">@John Doe</a> Lorem ipsum dolor amet, consectetur adipiscing 
+              elit. Aenean leo lectus sollicitudin eget libero.<br><span>About an hour ago</span></li>
+            </ul>
+          </div>
+          <div class="col-md-4 contact">
+            <h4>Contact Info</h4>
+            <p>Lorem ipsum dolor amet, consectetur adipiscing ipsum dolor.</p>
+            <ul>
+              <li><i class="fa fa-phone"></i>1-123-345-6789</li>
+              <li><a href="#"><i class="fa fa-envelope-o"></i> contact@webthemez.com</a></li>
+              <li><i class="fa fa-flag"></i>123 Smith Drive, Baltimore, MD 21212</li>
+            </ul>
+          </div>
+        </div><!-- END Row -->
+      </div>
+</footer>
+<!--/.page-section-->
+<section class="copyright">
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-12">          
+            Copyright 2014 All Rights Reserved         <div class="pull-right">Template by <a href="http://webThemez.com"> WebThemez.com</a></div>  
+        </div>
+      </div>  <!-- / .row -->
+    </div>
+</section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
-    function openTab(evt, id) {
-      $('.tm-tab-content').hide();
-      $('#' + id).show();
-      $('.tm-tab-link').removeClass('active');
-      $(evt.currentTarget).addClass('active');
-    }    
-
-    function initPage() {
-      let pageId = location.hash;
-
-      if(pageId) {
-        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
-        showPage($(pageId));
-      }
-      else {
-        pageId = $('.tm-page-link.active').attr('href');
-        showPage($(pageId));
-      }
-    }
-
-    function highlightMenu(menuItem) {
-      $('.tm-page-link').removeClass('active');
-      menuItem.addClass('active');
-    }
-
-    function showPage(page) {
-      $('.tm-page-content').hide();
-      page.show();
-    }
-
-    $(document).ready(function(){
-
-      /***************** Pages *****************/
-
-      initPage();
-
-      $('.tm-page-link').click(function(event) {
-        
-        if(window.innerWidth > 991) {
-          event.preventDefault();
-        }
-
-        highlightMenu($(event.currentTarget));
-        showPage($(event.currentTarget.hash));
-      });
-
-      
-      /***************** Tabs *******************/
-
-      $('.tm-tab-link').on('click', e => {
-        e.preventDefault(); 
-        openTab(e, $(e.target).data('id'));
-      });
-
-      $('.tm-tab-link.active').click(); // Open default tab
-
-
-      /************** Video background *********/
-
-      setVideoSize();
-
-      // Set video background size based on window size
-      let timeout;
-      window.onresize = function(){
-        clearTimeout(timeout);
-        timeout = setTimeout(setVideoSize, 100);
-      };
-
-      // Play/Pause button for video background      
-      const btn = $("#tm-video-control-button");
-
-      btn.on("click", function(e) {
-        const video = document.getElementById("tm-video");
-        $(this).removeClass();
-
-        if (video.paused) {
-          video.play();
-          $(this).addClass("fas fa-pause");
-        } else {
-          video.pause();
-          $(this).addClass("fas fa-play");
-        }
-      });
-    });
-      
-  </script>
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+<script src="js/modernizr-latest.js"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>    
+<script src="js/bootstrap.min.js" type="text/javascript"></script>	 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<script src="js/jquery.cslider.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
 </body>
 </html>
