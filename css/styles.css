@@ -21,12 +21,12 @@ body {
 
 ::selection {
     color: #fff;
-    background: #fb6c00;
+    background: #0288D1;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #fb6c00;
+    background: #0288D1;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
     }
 
 a {
-    color: #fb6c00;
+    color: #0288D1;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -82,7 +82,7 @@ a {
     }
 
 .btn-primary {
-    background: #fb6c00;
+    background: #0288D1;
 }
 
 .form-control {
@@ -118,20 +118,20 @@ a {
     z-index: 10;
     border-radius: 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border-top: 2px solid #fb6c00;
+    border-top: 2px solid #0288D1;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #fb6c00;
-    background-color: #fb6c00;
+    border-color: #0288D1;
+    background-color: #94e6b9;
 }
 
     .navbar-inverse .navbar-toggle .icon-bar {
-        /*background-color: #fb6c00;*/
+        /*background-color: #0288D1;*/
     }
 
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background: #fb6c00;
+        background: #0288D1;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -150,11 +150,11 @@ a {
     padding: 16px 15px;
     line-height: 18px;
     height: 50px;
-    /*color:#fb6c00;*/
+    /*color:#0288D1;*/
 }
 
 .navbar-brand b {
-    color: #fb6c00;
+    color: #0288D1;
 }
 
 .logo {
@@ -185,11 +185,11 @@ a {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #fb6c00;
+    background-color: #0288D1;
 }
 
 .navbar-nav > li:hover {
-    background-color: #fb6c00;
+    background-color: #0288D1;
 }
 
 .header .navbar-nav > li > a {
@@ -213,7 +213,7 @@ a {
         }
 
     .page-section h2 {
-        color: #fb6c00;
+        color: #0288D1;
     }
 
     .page-section p {
@@ -222,7 +222,7 @@ a {
     }
 
 .darkBg {
-    background: #fb6c00;
+    background: #0288D1;
 }
 
     .darkBg h2 {
@@ -280,7 +280,7 @@ a {
     .banner-content p {
         font-size: 1.9em;
         font-weight: normal;
-        color: #B9B9B9;
+        color: #fff;
     }
 
 .sub-heading {
@@ -377,7 +377,7 @@ a {
 }
 
 .team-member {
-    background: #fb6c00;
+    background: #0288D1;
     padding-top: 5px;
 }
 /* ------- */
@@ -406,12 +406,12 @@ nav#filter {
     nav#filter a {
         padding: 4px 12px;
         line-height: 20px;
-        border: 1px solid #fb6c00;
+        border: 1px solid #0288D1;
         text-decoration: none;
     }
 
 .current {
-    background: #fb6c00;
+    background: #0288D1;
     color: #fff;
 }
 
