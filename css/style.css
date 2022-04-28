@@ -41,7 +41,7 @@ main nav ul.nav-menu li.menu-item:not(:last-child) {
     margin-bottom: 10px;
 }
 main nav ul.nav-menu li.menu-item a {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     padding: 20px 10px;
     color: #000;
