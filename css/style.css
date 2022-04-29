@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;100;600;700&display=swap');
-
 *,
 *::after,
 *::before {
@@ -57,9 +56,11 @@ main nav ul.nav-menu li.menu-item a {
 main nav ul.nav-menu li.menu-item a:hover{
     box-shadow:  2px 2px 5px #d5d5d5,
                  -2px -2px 5px #f0f0f0;
-   /* box-shadow:  inset 5px 5px 5px #d5d5d5,
+
+}
+main nav ul.nav-menu li.menu-item a:active{
+    box-shadow:  inset 5px 5px 5px #d5d5d5,
                  inset -5px -5px 5px #f0f0f0;
-    */
 }
 main article{
     display: grid;
@@ -124,7 +125,7 @@ main article section figure{
     flex-direction: column;
 }
 main article section figure h1{
-    font-size: 60px;
+    font-size: 50px;
     line-height: 140%;
     font-weight: 700;
     margin-bottom: 25px;
@@ -148,16 +149,24 @@ main article section figure button.btn-action{
     color: #EF9A9A;
     cursor: pointer;
     margin-left:50px;
-    box-shadow:   5px 5px 10px #a5a5a5,
-                -5px -5px 10px #dddddd;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    box-shadow:   5px 5px 5px #d5d5d5,
+                -5px -5px 5px #f0f0f0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main article section figure button.btn-action:hover{
+    box-shadow:  10px 10px 30px #bebebe,
+                 -10px -10px 30px #ffffff;
+}
+main article section figure button.btn-action:active{
+    box-shadow:  inset 5px 5px 5px #d5d5d5,
+                 inset -5px -5px 5px #f0f0f0;
 }
 main article section figure button.btn-action i{
     font-size: 36px;
@@ -219,4 +228,10 @@ main aside ul.social-list li.social-item{
     padding: 10px;
     text-align: center;
     cursor: pointer;
+}
+footer p{
+    font-size: 12px;
+    color: #575757;
+    display:flex;
+    justify-content: center;
 }
