@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;100;600;700&display=swap');
+@import url('https://fonts.useso.com/css2?family=Open+Sans:wght@400;100;600;700&display=swap');
 *,
 *::after,
 *::before {
@@ -12,7 +12,6 @@ body{
     height: 100vh;
     background-color: #c5d3e6;
     font-family: 'Open Sans', sans-serif;
-
     display: grid;
     grid-template-rows: 40px 1fr 40px;
     grid-gap: 10px;
