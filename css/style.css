@@ -1,4 +1,4 @@
-@import url('https://fonts.useso.com/css2?family=Open+Sans:wght@400;100;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;100;600;700&display=swap');
 *,
 *::after,
 *::before {
@@ -26,6 +26,7 @@ main{
     background-color: #ebebeb;
     box-shadow:  20px 20px 70px #868686,
                -20px -20px 70px #ffffff;
+    max-height: 1200px;
 }
 main nav{
     position: relative;
@@ -100,20 +101,20 @@ main article header .mobile{
 main article section{
     grid-template-columns: repeat(2, 1fr);
     max-height: 500px;
+    display:none;
 }
-main article section.home{
+.home.active{
     display:grid;
 }
-main article section.service{
-    display:none;
+.service.active{
+    display:grid;
 }
-main article section.team{
-    display:none;
+.team.active{
+    display:grid;
 }
-main article section.location{
-    display:none;
+.location.active{
+    display:grid;
 }
-
 main article section figure{
     padding: 50px 30px;
     height: 450px;

@@ -14,28 +14,28 @@ const mainbg = document.querySelector("main");
 
 /*nav flow listener*/
 nav[0].addEventListener("click",function(e) {
-    sectionhome.style.display="grid";
-    sectionservice.style.display="none";
-    sectionteam.style.display="none";
-    sectionlocation.style.display="none";  
+    sectionhome.classList.add("active");
+    sectionservice.classList.remove("active");
+    sectionteam.classList.remove("active");
+    sectionlocation.classList.remove("active");  
 });
 nav[1].addEventListener("click",function(e) {
-    sectionhome.style.display="none";
-    sectionservice.style.display="grid";
-    sectionteam.style.display="none";
-    sectionlocation.style.display="none"; 
+    sectionhome.classList.remove("active");
+    sectionservice.classList.add("active");
+    sectionteam.classList.remove("active");
+    sectionlocation.classList.remove("active"); 
 });
 nav[2].addEventListener("click",function(e){
-    sectionhome.style.display="none";
-    sectionservice.style.display="none";
-    sectionteam.style.display="grid";
-    sectionlocation.style.display="none";  
+    sectionhome.classList.remove("active");
+    sectionservice.classList.remove("active");
+    sectionteam.classList.add("active");
+    sectionlocation.classList.remove("active");  
 });
 nav[3].addEventListener("click",function(e){
-    sectionhome.style.display="none";
-    sectionservice.style.display="none";
-    sectionteam.style.display="none";
-    sectionlocation.style.display="grid";    
+    sectionhome.classList.remove("active");
+    sectionservice.classList.remove("active");
+    sectionteam.classList.remove("active");
+    sectionlocation.classList.add("active");    
 });
 /*button flow listener*/
 /*  buttonaction.addEventListener("click",function(e){
