@@ -29,7 +29,7 @@ nav[2].addEventListener("click",function(e){
     sectionhome.classList.remove("active");
     sectionservice.classList.remove("active");
     sectionteam.classList.add("active");
-    sectionlocation.classList.remove("active");  
+    sectionlocation.classList.remove("active"); 
 });
 nav[3].addEventListener("click",function(e){
     sectionhome.classList.remove("active");

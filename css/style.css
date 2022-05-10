@@ -105,16 +105,49 @@ main article section{
 }
 .home.active{
     display:grid;
+    transition: 3s linear;
+    animation: home-animation 1s;
+    -webkit-animation: home-animation 1s;
+    -moz-animation: home-animation 1s;
 }
+@keyframes home-animation {
+    0%   {transform: scale(0.45);opacity:0;}
+    70%  {transform: scale(1.05);opacity:0.65;}
+    100% {transform: scale(1);opacity:1;}
+    }
 .service.active{
     display:grid;
+    animation: service-animation 1s;
+    -webkit-animation: service-animation 1s;
+    -moz-animation: service-animation 1s;
 }
+@keyframes service-animation {
+    0%   {transform: scale(0.45);opacity:0;}
+    70%  {transform: scale(1.05);opacity:0.65;}
+    100% {transform: scale(1);opacity:1;}
+    }
 .team.active{
     display:grid;
+    animation: team-animation 1s;
+    -webkit-animation: team-animation 1s;
+    -moz-animation: team-animation 1s;
 }
+@keyframes team-animation {
+    0%   {transform: scale(0.45);opacity:0;}
+    70%  {transform: scale(1.05);opacity:0.65;}
+    100% {transform: scale(1);opacity:1;}
+    }
 .location.active{
     display:grid;
+    animation: location-animation 1s;
+    -webkit-animation: location-animation 1s;
+    -moz-animation: location-animation 1s;
 }
+@keyframes location-animation {
+    0%   {transform: scale(0.45);opacity:0;}
+    70%  {transform: scale(1.05);opacity:0.65;}
+    100% {transform: scale(1);opacity:1;}
+    }
 main article section figure{
     padding: 50px 30px;
     height: 450px;
