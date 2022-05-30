@@ -266,5 +266,9 @@ footer p{
     font-size: 12px;
     color: #575757;
     display:flex;
-    justify-content: center;
+    justify-content:center;
+}
+footer p a{
+    color: #575757;
+    text-decoration: none;
 }
