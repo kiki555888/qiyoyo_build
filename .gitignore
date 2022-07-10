@@ -5,5 +5,4 @@ package-lock.json
 tailwind.config.js
 postcss.config.js
 css/input.css
-css/style.css
 css/tailwindcss.css
