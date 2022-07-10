@@ -9,29 +9,46 @@
   <meta content="北京企优优创管理咨询服务有限公司-专业代理记账，代理记账公司入驻，代办公司注册平台。专业-高效-诚信-创新 " name="description">
   <meta content="代理记账，代理记账公司，代办公司注册，税收筹划" name="keywords">
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="./css/tailwind.css" />
+   <!--<link rel="stylesheet" href="./css/tailwind.css" />-->
   <!--<link rel="stylesheet" href="./css/customize.css" />-->
   <!-- TAILWINDCSS STYLE -->
-   <!-- <script src="https://cdn.tailwindcss.com"></script>-->
+ <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- component -->
-<main class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]">
-	<h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
-	<div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
-		Page Not Found
+<main class=" h-screen flex flex-col justify-center items-center rounded-3xl  mx-2 text-gray-700 background-radial-gradient">
+  <style>
+    .background-radial-gradient {
+      background-color: hsl(218, 41%, 15%);
+      background-image: radial-gradient(650px circle at 0% 0%,
+          rgb(53, 79, 126) 15%,
+          rgb(45, 68, 108) 35%,
+          rgb(30, 45, 72) 75%,
+          rgb(29, 43, 68) 80%,
+          transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+          rgb(68, 102, 162) 15%,
+          rgb(45, 68, 108) 35%,
+          rgb(30, 45, 72) 75%,
+          rgb(28, 43, 69) 80%,
+          transparent 100%);
+    }
+  </style>
+  <h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+	<div class="bg-[#F87171] px-2 text-sm rounded rotate-12 absolute">
+		网页不见啦!!!
 	</div>
-    <form action="./home.html">
+    <form action="./index.html">
 	<button type="submit" class="mt-5">
       <a
-        class="relative inline-block text-sm font-medium text-[#FF6A3D] group active:text-orange-500 focus:outline-none focus:ring"
+        class="relative inline-block text-sm font-medium text-[#F87171] group active:text-orange-500 focus:outline-none focus:ring"
       >
         <span
-          class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#FF6A3D] group-hover:translate-y-0 group-hover:translate-x-0"
+          class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#F87171] group-hover:translate-y-0 group-hover:translate-x-0"
         ></span>
 
         <span class="relative block px-8 py-3 bg-[#1A2238] border border-current">
-          Go Home
+          回到主页
         </span>
       </a>
     </button>
