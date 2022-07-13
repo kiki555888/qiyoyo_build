@@ -15,15 +15,19 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-200">
-  <header class=" bg-gray-50 shadow-lg">
-    <nav class="container mx-auto sm:px-6 lg:px-8" aria-label="Top">
+<body class="bg-gray-200 ">
+  <!--====== PRELOADER PART START ======-->
+  <div class="preloader fixed top-1/2 left-1/2 ">
+  </div>
+  <header class="sticky top-0  bg-gray-50 shadow-lg">
+    <nav id="navbar-area" class="container mx-auto sm:px-6 lg:px-8" aria-label="Top">
       <div class="w-full pt-3 pb-2 flex items-center justify-between border-b border-gray-300 lg:border-none">
         <div class="flex items-center">
           <a href="./404.html">
             <span class="sr-only">企优优创</span>
             <img class="h-10 w-auto" src="./images/logo.png" alt="">
           </a>
+          <p class="lg:hidden text-2xl font-normal text-gray-700">企优财税</p>
           <div class="hidden ml-10 space-x-8 lg:block">
             <a href="./404.html"
               class="text-lg font-light text-gray-700 rounded-md hover:bg-gray-200 active:shadow-md py-2 px-4"> 解决方案</a>
@@ -68,23 +72,6 @@
   <main>
     <!-- Section: Design Block -->
     <section class=" rounded-lg my-4 mx-2 text-gray-700 background-radial-gradient">
-      <style>
-        .background-radial-gradient {
-          background-color: hsl(218, 41%, 15%);
-          background-image: radial-gradient(650px circle at 0% 0%,
-              rgb(53, 79, 126) 15%,
-              rgb(45, 68, 108) 35%,
-              rgb(30, 45, 72) 75%,
-              rgb(29, 43, 68) 80%,
-              transparent 100%),
-            radial-gradient(1250px circle at 100% 100%,
-              rgb(68, 102, 162) 15%,
-              rgb(45, 68, 108) 35%,
-              rgb(30, 45, 72) 75%,
-              rgb(28, 43, 69) 80%,
-              transparent 100%);
-        }
-      </style>
       <div class="container mx-auto px-4 py-8 md:px-8 text-center lg:text-left">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="mt-6 lg:mt-0">
@@ -95,13 +82,193 @@
               我们在同一屋檐下竭诚为您服务，确保您少为流程奔波。 企优优创一直致力于让您的工作衔接更顺畅、体验更卓越。
             </p>
           </div>
-          <div class="mb-6 lg:mb-0 ">
-            <div class="relative w-full overflow-hidden rounded-lg shadow-lg" style="padding-top: 56.25%">
-              <iframe class=" absolute top-0 right-0 bottom-0 left-0 w-full h-full" src="//player.bilibili.com/player.html?aid=764108122&amp;bvid=BV1wr4y1y7nx&amp;cid=438554947&amp;page=1" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-            </div>
+          <div class="w-full overflow-hidden rounded-lg shadow-lg">
+            <img src="./images/demo.jpg">
           </div>
         </div>
       </div>
+    </section>
+    <!--our services-->
+    <section class="rounded-lg bg-white my-4 mx-2 text-gray-700 text-center">
+      <div class="container grid md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-6 mx-auto lg:grid-cols-4 gap-4 xl:gap-x-4">
+        <div class="my-4 lg:mb-2 hover:shadow-lg ">
+          <!--div >
+              <div class="overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mb-6">
+             <a href="./404.html">   <img src="./images/home.png" class="w-full" alt="Louvre">
+               </a>
+              </div>
+            </div-->
+
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-4 lg:mb-2 hover:shadow-lg">
+          <form action="./404.html" class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg">
+            <div class="px-4 py-2">
+              <h1 class="text-3xl font-bold text-gray-700 uppercase ">服务内容</h1>
+              <p class="mt-1 text-sm text-gray-500 ">服务的详细介绍等等等等</p>
+            </div>
+            <img class="object-cover w-full h-48 mt-2" src="./images/home.png" alt="QIYOYO">
+            <div class="flex items-center justify-between px-4 py-2 bg-slate-700 hover:bg-sky-700">
+              <h1 class="text-lg font-bold text-white">￥0</h1>
+              <button
+                class="px-2 py-1 text-xs font-semibold text-slate-700  bg-white rounded ">联系我们</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
     </section>
     <!-- Section: FAQs -->
     <section class="rounded-lg bg-white my-4 mx-2 ">
@@ -110,7 +277,7 @@
 
         <div class="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -126,9 +293,8 @@
               </p>
             </div>
           </div>
-
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -144,9 +310,8 @@
               </p>
             </div>
           </div>
-
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -162,9 +327,8 @@
               </p>
             </div>
           </div>
-
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -181,9 +345,8 @@
               </p>
             </div>
           </div>
-
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -199,9 +362,8 @@
               </p>
             </div>
           </div>
-
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -219,7 +381,7 @@
             </div>
           </div>
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -237,7 +399,7 @@
             </div>
           </div>
           <div>
-            <div class="inline-block p-3 text-white bg-sky-600 rounded-lg">
+            <div class="inline-block p-3 text-white bg-slate-700 rounded-lg">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -256,102 +418,13 @@
           </div>
         </div>
       </div>
-    </section>
-    <!--our teams-->
-    <section class="rounded-lg bg-white my-4 mx-2 text-gray-700 text-center">
-      <div class="container grid md:grid-cols-2 xl:grid-cols-6 mx-auto lg:grid-cols-3 gap-4 xl:gap-x-4">
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/home.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0,0,0,0.08)"></div>
-              </a>
-            </div>
-
-            <h1 class="text-xl font-semibold mb-0">AI客服</h1>
-          </div>
-        </div>
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/service.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0,0,0,0.08)"></div>
-              </a>
-            </div>
-
-            <h1 class="text-xl font-semibold mb-0">大数据分析</h1>
-          </div>
-        </div>
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/team.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0,0,0,0.08)"></div>
-              </a>
-            </div>
-            <h1 class="text-xl font-semibold mb-0">专业团队</h1>
-          </div>
-        </div>
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/service.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0,0,0,0.08)"></div>
-              </a>
-            </div>
-
-            <h1 class="text-xl font-semibold mb-0">大数据分析</h1>
-          </div>
-        </div>
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/service.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0,0,0,0.08)"></div>
-              </a>
-            </div>
-
-            <h1 class="text-xl font-semibold mb-0">大数据分析</h1>
-          </div>
-        </div>
-        <div class="my-4 lg:mb-2">
-          <div>
-            <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6">
-              <img src="./images/service.png" class="w-full" alt="Louvre" />
-              <a href="#!">
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 "
-                  style="background-color: rgba(0, 0, 0, 0.08)"></div>
-              </a>
-            </div>
-
-            <h1 class="text-xl font-semibold mb-0">大数据分析</h1>
-          </div>
-        </div>
-      </div>
-
     </section>
     <!--back to top button-->
     <section>
       <button type="button"
-        class="inline-block p-3 bg-red-400 text-white font-semibold text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-500  bottom-5 right-5"
+        class="inline-block p-3 bg-red-400 text-white font-semibold text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-red-500  bottom-5 right-5"
         id="btn-back-to-top">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img"
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5 h-5" role="img"
           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path fill="currentColor"
             d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
@@ -384,11 +457,13 @@
               </p>
             </div>
 
-            <form class="mt-6">
+            <form class="mt-6" action="#">
               <div class="flex max-w-lg mx-auto lg:mx-0">
                 <label class="sr-only" for="email"> Email </label>
                 <input class="w-full py-4 pl-3 pr-16 text-sm text-white bg-gray-800 border-none rounded-md" id="email"
                   type="email" placeholder="输入邮箱地址" />
+                <button
+                  class="py-2 mx-1 px-4 bg-slate-700 text-white font-normal rounded-lg hover:bg-sky-700">Subscribe</button>
               </div>
             </form>
           </div>
@@ -527,4 +602,5 @@
   </footer>
   <script type="text/javascript" src="./js/customize.js"></script>
 </body>
+
 </html>
