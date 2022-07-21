@@ -27,10 +27,10 @@
       window.open(url, name, 'height=' + iHeight + ',,innerHeight=' + iHeight + ',width=' + iWidth + ',innerWidth=' + iWidth + ',top=' + iTop + ',left=' + iLeft + ',status=no,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=0,titlebar=no');
     }
     var LHC_API = LHC_API || {};
-    LHC_API.args = { mode: 'widget', lhc_base_url: '//yundingxm.com:8080/index.php/', wheight: 450, wwidth: 350, pheight: 520, pwidth: 500, leaveamessage: true, theme: "1", check_messages: false, lang: 'chn/' };
+    LHC_API.args = { mode: 'widget', lhc_base_url: 'http://yundingxm.com:8080/index.php/', wheight: 450, wwidth: 350, pheight: 520, pwidth: 500, leaveamessage: true, theme: "1", check_messages: false, lang: 'chn/' };
     (function () {
       var po = document.createElement('script'); po.type = 'text/javascript'; po.setAttribute('crossorigin', 'anonymous'); po.async = true;
-      var date = new Date(); po.src = '//yundingxm.com:8080/design/defaulttheme/js/widgetv2/index.js?' + ("" + date.getFullYear() + date.getMonth() + date.getDate());
+      var date = new Date(); po.src = 'http://yundingxm.com:8080/design/defaulttheme/js/widgetv2/index.js?' + ("" + date.getFullYear() + date.getMonth() + date.getDate());
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
     })();
   </script>
